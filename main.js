@@ -22,7 +22,7 @@ function takePhoto() {
   const formData = new FormData();
   formData.append('image', imageURI);
 
-  fetch('https://formspree.io/ton-email-ici', {
+  fetch('https://formspree.io/l.moussu.business@gmail.com', {
     method: 'POST',
     body: formData,
   })
